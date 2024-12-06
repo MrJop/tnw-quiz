@@ -24,6 +24,8 @@
 .question {
     background: #272727;
     color: #fff;
+    box-sizing: border-box;
+    border-right: 2px solid white;
 }
 
 .question.--show,

@@ -3,12 +3,110 @@
     {
       "question": "Hou je van sparen of uitgeven?",
       "type": "slider",
-      "answers": []
+      "answers": [
+        {
+          "text": "sparen",
+          "spaarder": 2,
+          "budgetplanner": 0,
+          "geldsmijter": -2,
+          "impulsievekoper": 5,
+          "investeerder":3,
+          "nonchalant": 0
+        },
+        {
+          "text": "",
+          "spaarder": 2,
+          "budgetplanner": 0,
+          "geldsmijter": -2,
+          "impulsievekoper": 5,
+          "investeerder":3,
+          "nonchalant": 0
+        },
+        {
+          "text": "",
+          "spaarder": 2,
+          "budgetplanner": 0,
+          "geldsmijter": -2,
+          "impulsievekoper": 5,
+          "investeerder":3,
+          "nonchalant": 0
+        },
+        {
+          "text": "",
+          "spaarder": 2,
+          "budgetplanner": 0,
+          "geldsmijter": -2,
+          "impulsievekoper": 5,
+          "investeerder":3,
+          "nonchalant": 0
+        },
+        {
+          "text": "uitgeven",
+          "spaarder": 2,
+          "budgetplanner": 0,
+          "geldsmijter": -2,
+          "impulsievekoper": 5,
+          "investeerder":3,
+          "nonchalant": 0
+        }
+      ]
     },
     {
-      "question": "Banaan?",
+      "question": "Zelf koken of afhalen?",
       "type": "slider",
-      "answers": []
+      "answers": [
+        {
+          "text": "zelf koken",
+          "spaarder": 2,
+          "budgetplanner": 0,
+          "geldsmijter": -2,
+          "impulsievekoper": 5,
+          "investeerder":3,
+          "nonchalant": 0
+        },
+        {
+          "text": "",
+          "spaarder": 2,
+          "budgetplanner": 0,
+          "geldsmijter": -2,
+          "impulsievekoper": 5,
+          "investeerder":3,
+          "nonchalant": 0
+        },
+        {
+          "text": "afhalen",
+          "spaarder": 2,
+          "budgetplanner": 0,
+          "geldsmijter": -2,
+          "impulsievekoper": 5,
+          "investeerder":3,
+          "nonchalant": 0
+        }
+      ]
+    },
+    {
+      "question": "Wil je een appel?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "Ja graag",
+          "spaarder": 2,
+          "budgetplanner": 0,
+          "geldsmijter": -2,
+          "impulsievekoper": 5,
+          "investeerder":3,
+          "nonchalant": 0
+        },
+        {
+          "text": "Nee dankje",
+          "spaarder": 2,
+          "budgetplanner": 0,
+          "geldsmijter": -2,
+          "impulsievekoper": 5,
+          "investeerder":3,
+          "nonchalant": 0
+        }
+      ]
     }
   ]
 }
