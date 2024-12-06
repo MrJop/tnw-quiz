@@ -31,7 +31,13 @@ var SiteManager = {
             switch(q.type){
                 case "slider":
                     var steps =  100 / (q.answers.length - 1);
-                    input = `<input type="range" min="0" max="100" value="50" class="sq-slider" step="${steps}" />`;
+                    input = `
+                        <div class="slider-container">
+                            <h3>${q.answers[0].text}</h3>
+                                <input type="range" min="0" max="100" value="50" class="sq-slider" step="${steps}" />
+                            <h3>${q.answers[q.answers.length-1].text}</h3>
+                        </div>
+                    `;
                     optionalButton = '<button class="js-next-button">Verder</button>';
                     break;
 

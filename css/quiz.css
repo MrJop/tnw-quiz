@@ -29,6 +29,10 @@
     border-right: 2px solid white;
 }
 
+.end-screen {
+    background: yellowgreen;
+}
+
 .question.--show,
 .start-screen.--show,
 .end-screen.--show {
@@ -39,4 +43,10 @@
 .start-screen.--hide,
 .end-screen.--hide {
     left: -100vw;
+}
+
+.slider-container {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0;
 }
