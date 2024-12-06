@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "question": "Hou je van sparen of uitgeven?",
+      "type": "slider",
+      "answers": []
+    },
+    {
+      "question": "Banaan?",
+      "type": "slider",
+      "answers": []
+    }
+  ]
+}
