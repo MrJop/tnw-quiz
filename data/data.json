@@ -1,5 +1,46 @@
 {
+  "personas": [
+    "spaarder",
+    "budgetplanner",
+    "geldsmijter",
+    "impulsievekoper",
+    "investeerder",
+    "wegkijker"
+  ],
   "questions": [
+    {
+      "question": "Wil je een appel?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "Ja graag",
+          "spaarder": 20,
+          "budgetplanner": 0,
+          "geldsmijter": -2,
+          "impulsievekoper": 5,
+          "investeerder":3,
+          "wegkijker": 0
+        },
+        {
+          "text": "Misschien",
+          "spaarder": 10,
+          "budgetplanner": 0,
+          "geldsmijter": -2,
+          "impulsievekoper": 5,
+          "investeerder":3,
+          "wegkijker": 0
+        },
+        {
+          "text": "Nee dankje",
+          "spaarder": -10,
+          "budgetplanner": 0,
+          "geldsmijter": -2,
+          "impulsievekoper": 5,
+          "investeerder":3,
+          "wegkijker": 0
+        }
+      ]
+    },
     {
       "question": "Hou je van sparen of uitgeven?",
       "type": "slider",
@@ -11,7 +52,7 @@
           "geldsmijter": -2,
           "impulsievekoper": 5,
           "investeerder":3,
-          "nonchalant": 0
+          "wegkijker": 0
         },
         {
           "text": "",
@@ -20,7 +61,7 @@
           "geldsmijter": -2,
           "impulsievekoper": 5,
           "investeerder":3,
-          "nonchalant": 0
+          "wegkijker": 0
         },
         {
           "text": "",
@@ -29,7 +70,7 @@
           "geldsmijter": -2,
           "impulsievekoper": 5,
           "investeerder":3,
-          "nonchalant": 0
+          "wegkijker": 0
         },
         {
           "text": "",
@@ -38,7 +79,7 @@
           "geldsmijter": -2,
           "impulsievekoper": 5,
           "investeerder":3,
-          "nonchalant": 0
+          "wegkijker": 0
         },
         {
           "text": "uitgeven",
@@ -47,7 +88,7 @@
           "geldsmijter": -2,
           "impulsievekoper": 5,
           "investeerder":3,
-          "nonchalant": 0
+          "wegkijker": 0
         }
       ]
     },
@@ -62,7 +103,7 @@
           "geldsmijter": -2,
           "impulsievekoper": 5,
           "investeerder":3,
-          "nonchalant": 0
+          "wegkijker": 0
         },
         {
           "text": "",
@@ -71,7 +112,7 @@
           "geldsmijter": -2,
           "impulsievekoper": 5,
           "investeerder":3,
-          "nonchalant": 0
+          "wegkijker": 0
         },
         {
           "text": "afhalen",
@@ -80,31 +121,7 @@
           "geldsmijter": -2,
           "impulsievekoper": 5,
           "investeerder":3,
-          "nonchalant": 0
-        }
-      ]
-    },
-    {
-      "question": "Wil je een appel?",
-      "type": "multiple-choice",
-      "answers": [
-        {
-          "text": "Ja graag",
-          "spaarder": 2,
-          "budgetplanner": 0,
-          "geldsmijter": -2,
-          "impulsievekoper": 5,
-          "investeerder":3,
-          "nonchalant": 0
-        },
-        {
-          "text": "Nee dankje",
-          "spaarder": 2,
-          "budgetplanner": 0,
-          "geldsmijter": -2,
-          "impulsievekoper": 5,
-          "investeerder":3,
-          "nonchalant": 0
+          "wegkijker": 0
         }
       ]
     }

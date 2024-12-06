@@ -12,7 +12,8 @@
 }
 
 .question,
-.start-screen{
+.start-screen,
+.end-screen{
     position: absolute;
     left: 100%;
     width: 100%;
@@ -29,11 +30,13 @@
 }
 
 .question.--show,
-.start-screen.--show {
+.start-screen.--show,
+.end-screen.--show {
     left: 0;
 }
 
 .question.--hide,
-.start-screen.--hide {
+.start-screen.--hide,
+.end-screen.--hide {
     left: -100vw;
 }
