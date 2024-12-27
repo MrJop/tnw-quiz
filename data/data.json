@@ -1,127 +1,85 @@
 {
   "personas": [
-    "spaarder",
-    "budgetplanner",
     "geldsmijter",
     "impulsievekoper",
     "investeerder",
+    "budgetplanner",
+    "spaarder",
     "wegkijker"
   ],
   "questions": [
     {
-      "question": "Wil je een appel?",
+      "question": "Je hebt een vriend al drie keer een Tikkie gestuurd, maar deze wordt niet betaald. Wat doe je?",
       "type": "multiple-choice",
       "answers": [
         {
-          "text": "Ja graag",
+          "text": "Ik spreek diegene er op aan.",
+          "budgetplanner": 50,
+          "spaarder": 40,
+          "investeerder": 30,
+          "impulsievekoper": 20,
+          "geldsmijter": 10,
+          "wegkijker": 0
+        },
+        {
+          "text": "Ik laat het zitten",
+          "geldsmijter": 50,
+          "wegkijker": 40,
+          "impulsievekoper": 3,
           "spaarder": 20,
-          "budgetplanner": 0,
-          "geldsmijter": -2,
-          "impulsievekoper": 5,
-          "investeerder":3,
-          "wegkijker": 0
-        },
+          "budgetplanner": 10,
+          "investeerder": 0
+        }
+      ]
+    },
+    {
+      "question": "Welke uitspraak past het meest bij jou?",
+      "type": "slider",
+      "answers": [
         {
-          "text": "Misschien",
+          "text": "Geld moet rollen",
+          "geldsmijter": 50,
+          "impulsievekoper": 40,
+          "investeerder":30,
+          "budgetplanner": 20,
           "spaarder": 10,
-          "budgetplanner": 0,
-          "geldsmijter": -2,
-          "impulsievekoper": 5,
-          "investeerder":3,
-          "wegkijker": 0
-        },
-        {
-          "text": "Nee dankje",
-          "spaarder": -10,
-          "budgetplanner": 0,
-          "geldsmijter": -2,
-          "impulsievekoper": 5,
-          "investeerder":3,
-          "wegkijker": 0
-        }
-      ]
-    },
-    {
-      "question": "Hou je van sparen of uitgeven?",
-      "type": "slider",
-      "answers": [
-        {
-          "text": "sparen",
-          "spaarder": 2,
-          "budgetplanner": 0,
-          "geldsmijter": -2,
-          "impulsievekoper": 5,
-          "investeerder":3,
           "wegkijker": 0
         },
         {
           "text": "",
-          "spaarder": 2,
-          "budgetplanner": 0,
-          "geldsmijter": -2,
-          "impulsievekoper": 5,
-          "investeerder":3,
+          "impulsievekoper": 50,
+          "geldsmijter": 40,
+          "investeerder":30,
+          "budgetplanner": 20,
+          "spaarder": 10,
           "wegkijker": 0
         },
         {
           "text": "",
-          "spaarder": 2,
-          "budgetplanner": 0,
-          "geldsmijter": -2,
-          "impulsievekoper": 5,
-          "investeerder":3,
+          "investeerder":50,
+          "budgetplanner": 40,
+          "impulsievekoper": 30,
+          "spaarder": 20,
+          "geldsmijter": 10,
           "wegkijker": 0
         },
         {
           "text": "",
-          "spaarder": 2,
-          "budgetplanner": 0,
-          "geldsmijter": -2,
-          "impulsievekoper": 5,
-          "investeerder":3,
+          "budgetplanner": 50,
+          "investeerder":40,
+          "spaarder": 30,
+          "impulsievekoper": 20,
+          "geldsmijter": 10,
           "wegkijker": 0
         },
         {
-          "text": "uitgeven",
-          "spaarder": 2,
-          "budgetplanner": 0,
-          "geldsmijter": -2,
-          "impulsievekoper": 5,
-          "investeerder":3,
-          "wegkijker": 0
-        }
-      ]
-    },
-    {
-      "question": "Zelf koken of afhalen?",
-      "type": "slider",
-      "answers": [
-        {
-          "text": "zelf koken",
-          "spaarder": 2,
-          "budgetplanner": 0,
-          "geldsmijter": -2,
-          "impulsievekoper": 5,
-          "investeerder":3,
-          "wegkijker": 0
-        },
-        {
-          "text": "",
-          "spaarder": 2,
-          "budgetplanner": 0,
-          "geldsmijter": -2,
-          "impulsievekoper": 5,
-          "investeerder":3,
-          "wegkijker": 0
-        },
-        {
-          "text": "afhalen",
-          "spaarder": 2,
-          "budgetplanner": 0,
-          "geldsmijter": -2,
-          "impulsievekoper": 5,
-          "investeerder":3,
-          "wegkijker": 0
+          "text": "ik spaar liever",
+          "spaarder": 50,
+          "budgetplanner": 40,
+          "wegkijker": 30,
+          "investeerder": 20,
+          "impulsievekoper": 10,
+          "geldsmijter": 0
         }
       ]
     }
