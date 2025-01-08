@@ -8,80 +8,396 @@
     "wegkijker"
   ],
   "questions": [
-    {
-      "question": "Je hebt een vriend al drie keer een Tikkie gestuurd, maar deze wordt niet betaald. Wat doe je?",
-      "type": "multiple-choice",
-      "answers": [
-        {
-          "text": "Ik spreek diegene er op aan.",
-          "budgetplanner": 50,
-          "spaarder": 40,
-          "investeerder": 30,
-          "impulsievekoper": 20,
-          "geldsmijter": 10,
-          "wegkijker": 0
-        },
-        {
-          "text": "Ik laat het zitten",
-          "geldsmijter": 50,
-          "wegkijker": 40,
-          "impulsievekoper": 3,
-          "spaarder": 20,
-          "budgetplanner": 10,
-          "investeerder": 0
-        }
-      ]
-    },
+
+
+
     {
       "question": "Welke uitspraak past het meest bij jou?",
       "type": "slider",
       "answers": [
         {
           "text": "Geld moet rollen",
-          "geldsmijter": 50,
-          "impulsievekoper": 40,
-          "investeerder":30,
-          "budgetplanner": 20,
-          "spaarder": 10,
-          "wegkijker": 0
-        },
-        {
-          "text": "",
-          "impulsievekoper": 50,
-          "geldsmijter": 40,
-          "investeerder":30,
-          "budgetplanner": 20,
-          "spaarder": 10,
-          "wegkijker": 0
-        },
-        {
-          "text": "",
-          "investeerder":50,
-          "budgetplanner": 40,
-          "impulsievekoper": 30,
-          "spaarder": 20,
           "geldsmijter": 10,
-          "wegkijker": 0
+          "impulsievekoper": 10,
+          "investeerder": 10,
+          "budgetplanner": 10,
+          "spaarder": 10,
+          "wegkijker": 10
         },
         {
           "text": "",
-          "budgetplanner": 50,
-          "investeerder":40,
-          "spaarder": 30,
-          "impulsievekoper": 20,
+          "impulsievekoper": 10,
           "geldsmijter": 10,
-          "wegkijker": 0
+          "investeerder": 10,
+          "budgetplanner": 10,
+          "spaarder": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "",
+          "investeerder": 10,
+          "budgetplanner": 10,
+          "impulsievekoper": 10,
+          "spaarder": 10,
+          "geldsmijter": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "",
+          "budgetplanner": 10,
+          "investeerder": 10,
+          "spaarder": 10,
+          "impulsievekoper": 10,
+          "geldsmijter": 10,
+          "wegkijker": 10
         },
         {
           "text": "ik spaar liever",
-          "spaarder": 50,
-          "budgetplanner": 40,
-          "wegkijker": 30,
-          "investeerder": 20,
+          "spaarder": 10,
+          "budgetplanner": 10,
+          "wegkijker": 10,
+          "investeerder": 10,
           "impulsievekoper": 10,
-          "geldsmijter": 0
+          "geldsmijter": 10
+        }
+      ]
+    },
+
+
+
+
+    {
+      "question": "Achteraf betalen klink voor jou als...",
+      "type": "slider",
+      "answers": [
+        {
+          "text": "Een handig idee, als ik geen geld heb",
+          "geldsmijter": 10,
+          "impulsievekoper": 10,
+          "investeerder": 10,
+          "budgetplanner": 10,
+          "spaarder": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "",
+          "impulsievekoper": 10,
+          "geldsmijter": 10,
+          "investeerder": 10,
+          "budgetplanner": 10,
+          "spaarder": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "",
+          "investeerder": 10,
+          "budgetplanner": 10,
+          "impulsievekoper": 10,
+          "spaarder": 10,
+          "geldsmijter": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "",
+          "budgetplanner": 10,
+          "investeerder": 10,
+          "spaarder": 10,
+          "impulsievekoper": 10,
+          "geldsmijter": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "Een valkuil waar ik liever niet intrap",
+          "spaarder": 10,
+          "budgetplanner": 10,
+          "wegkijker": 10,
+          "investeerder": 10,
+          "impulsievekoper": 10,
+          "geldsmijter": 10
+        }
+      ]
+    },
+
+
+
+
+    {
+      "question": "Wat denk je als je op je bankieren-app kijkt?",
+      "type": "slider",
+      "answers": [
+        {
+          "text": "Yes, alles on controle",
+          "geldsmijter": 10,
+          "impulsievekoper": 10,
+          "investeerder": 10,
+          "budgetplanner": 10,
+          "spaarder": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "",
+          "impulsievekoper": 10,
+          "geldsmijter": 10,
+          "investeerder": 10,
+          "budgetplanner": 10,
+          "spaarder": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "",
+          "investeerder": 10,
+          "budgetplanner": 10,
+          "impulsievekoper": 10,
+          "spaarder": 10,
+          "geldsmijter": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "",
+          "budgetplanner": 10,
+          "investeerder": 10,
+          "spaarder": 10,
+          "impulsievekoper": 10,
+          "geldsmijter": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "Oh nee",
+          "spaarder": 10,
+          "budgetplanner": 10,
+          "wegkijker": 10,
+          "investeerder": 10,
+          "impulsievekoper": 10,
+          "geldsmijter": 10
+        }
+      ]
+    },
+
+
+
+
+    {
+      "question": "Het is de laatste week van de maand en je geld is bijna op. Wat doe je?",
+      "type": "slider",
+      "answers": [
+        {
+          "text": "Ik ga denken om mijn uitgaven",
+          "geldsmijter": 10,
+          "impulsievekoper": 10,
+          "investeerder": 10,
+          "budgetplanner": 10,
+          "spaarder": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "",
+          "impulsievekoper": 10,
+          "geldsmijter": 10,
+          "investeerder": 10,
+          "budgetplanner": 10,
+          "spaarder": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "",
+          "investeerder": 10,
+          "budgetplanner": 10,
+          "impulsievekoper": 10,
+          "spaarder": 10,
+          "geldsmijter": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "",
+          "budgetplanner": 10,
+          "investeerder": 10,
+          "spaarder": 10,
+          "impulsievekoper": 10,
+          "geldsmijter": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "Ik verander niks",
+          "spaarder": 10,
+          "budgetplanner": 10,
+          "wegkijker": 10,
+          "investeerder": 10,
+          "impulsievekoper": 10,
+          "geldsmijter": 10
+        }
+      ]
+    },
+
+
+
+
+    {
+      "question": "Heb je een idee wat je gemiddeld per maand uitgeeft?",
+      "type": "slider",
+      "answers": [
+        {
+          "text": "Ja, dat weet ik",
+          "geldsmijter": 10,
+          "impulsievekoper": 10,
+          "investeerder": 10,
+          "budgetplanner": 10,
+          "spaarder": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "",
+          "impulsievekoper": 10,
+          "geldsmijter": 10,
+          "investeerder": 10,
+          "budgetplanner": 10,
+          "spaarder": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "",
+          "investeerder": 10,
+          "budgetplanner": 10,
+          "impulsievekoper": 10,
+          "spaarder": 10,
+          "geldsmijter": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "",
+          "budgetplanner": 10,
+          "investeerder": 10,
+          "spaarder": 10,
+          "impulsievekoper": 10,
+          "geldsmijter": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "Nee, ik heb geen overzicht",
+          "spaarder": 10,
+          "budgetplanner": 10,
+          "wegkijker": 10,
+          "investeerder": 10,
+          "impulsievekoper": 10,
+          "geldsmijter": 10
+        }
+      ]
+    },
+
+
+
+
+    {
+      "question": "Je hebt een vriend al drie keer een Tikkie gestuurd, maar deze wordt niet betaald. Wat doe je?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "Ik spreek diegene er op aan.",
+          "budgetplanner": 10,
+          "spaarder": 10,
+          "investeerder": 10,
+          "impulsievekoper": 10,
+          "geldsmijter": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "Ik laat het zitten",
+          "geldsmijter": 10,
+          "wegkijker": 10,
+          "impulsievekoper": 10,
+          "spaarder": 10,
+          "budgetplanner": 10,
+          "investeerder": 10
         }
       ]
     }
+
+
+    ,
+
+
+
+
+    {
+      "question": "Heb je wel eens spijt van je aankopen?",
+      "type": "slider",
+      "answers": [
+        {
+          "text": "Ja, heel vaak",
+          "geldsmijter": 10,
+          "impulsievekoper": 10,
+          "investeerder": 10,
+          "budgetplanner": 10,
+          "spaarder": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "",
+          "impulsievekoper": 10,
+          "geldsmijter": 10,
+          "investeerder": 10,
+          "budgetplanner": 10,
+          "spaarder": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "",
+          "investeerder": 10,
+          "budgetplanner": 10,
+          "impulsievekoper": 10,
+          "spaarder": 10,
+          "geldsmijter": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "",
+          "budgetplanner": 10,
+          "investeerder": 10,
+          "spaarder": 10,
+          "impulsievekoper": 10,
+          "geldsmijter": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "Nee, nooit",
+          "spaarder": 10,
+          "budgetplanner": 10,
+          "wegkijker": 10,
+          "investeerder": 10,
+          "impulsievekoper": 10,
+          "geldsmijter": 10
+        }
+      ]
+    },
+
+
+
+
+    {
+      "question": "Je ontvangt een cadeaubon voor je verjaardag. Wat doe je?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "text": "Ik bewaar het voor iets wat ik echt nodig heb.",
+          "budgetplanner": 10,
+          "spaarder": 10,
+          "investeerder": 10,
+          "impulsievekoper": 10,
+          "geldsmijter": 10,
+          "wegkijker": 10
+        },
+        {
+          "text": "Ik geef het meteen uit voor iets leuks.",
+          "geldsmijter": 10,
+          "wegkijker": 10,
+          "impulsievekoper": 10,
+          "spaarder": 10,
+          "budgetplanner": 10,
+          "investeerder": 10
+        }
+      ]
+    }
+
+
+
   ]
 }

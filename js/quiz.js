@@ -56,9 +56,11 @@ var SiteManager = {
 
             this.myQuizContainer.append(`
             <div class="question js-question">
+                <div class="question__container">
                 <h2>${q.question}</h2>
                 ${input}
                 ${optionalButton}
+                </div>
             </div>
             `);
         }
@@ -133,11 +135,17 @@ var SiteManager = {
             return b[1] - a[1];
         });
 
-        $('.js-end-screen').append(`<ol>`);
+        var endScreenHTML = `
+        <div><h2>Resultaat</h2>
+        `;
+
+        endScreenHTML += `<ol>`;
         for(var i=0;i<sortable.length;i++){
-            $('.js-end-screen').append(`<li><strong>${sortable[i][0]}</strong>: ${sortable[i][1]}</li>`);
+            endScreenHTML += `<li><strong>${sortable[i][0]}</strong>: ${sortable[i][1]}</li>`;
         }
-        $('.js-end-screen').append(`</ol>`);
+        endScreenHTML +=`</ol></div>`;
+
+        $('.js-end-screen').html(endScreenHTML);
 
         $('.js-end-screen').addClass('--show');
     },
